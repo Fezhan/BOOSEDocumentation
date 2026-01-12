@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppCommandFactory | docs </title>
+      <title>Class AppParameterValidator | docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppCommandFactory | docs ">
+      <meta name="title" content="Class AppParameterValidator | docs ">
       
-      <meta name="description" content="New command factory to pass replaced commands">
+      <meta name="description" content="Used to validate parameters for ints and reals, by bypassing paramsint due to inability to set string values to int array">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/new/main/apiSpec/new?filename=BOOSEAssignment_AppCommandFactory.md&amp;value=---%0Auid%3A%20BOOSEAssignment.AppCommandFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/new/main/apiSpec/new?filename=BOOSEAssignment_AppParameterValidator.md&amp;value=---%0Auid%3A%20BOOSEAssignment.AppParameterValidator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSEAssignment.AppCommandFactory">
+        <article data-uid="BOOSEAssignment.AppParameterValidator">
 
 
 
-  <h1 id="BOOSEAssignment_AppCommandFactory" data-uid="BOOSEAssignment.AppCommandFactory" class="text-break">
-Class AppCommandFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppCommandFactory.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSEAssignment_AppParameterValidator" data-uid="BOOSEAssignment.AppParameterValidator" class="text-break">
+Class AppParameterValidator  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppParameterValidator.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class AppCommandFactory  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>BOOSEAssignment.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>New command factory to pass replaced commands</p>
+  <div class="markdown summary"><p>Used to validate parameters for ints and reals, by bypassing paramsint due to inability to set string values to int array</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppCommandFactory : IAppCommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppParameterValidator</code></pre>
   </div>
 
 
@@ -112,16 +112,10 @@ Class AppCommandFactory  <a class="header-action link-secondary" title="View sou
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">AppCommandFactory</span></div>
+      <div><span class="xref">AppParameterValidator</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="BOOSEAssignment.IAppCommandFactory.html">IAppCommandFactory</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -159,102 +153,36 @@ Class AppCommandFactory  <a class="header-action link-secondary" title="View sou
 </h2>
 
 
-  <a id="BOOSEAssignment_AppCommandFactory_GetInstance_" data-uid="BOOSEAssignment.AppCommandFactory.GetInstance*"></a>
+  <a id="BOOSEAssignment_AppParameterValidator_Validate_" data-uid="BOOSEAssignment.AppParameterValidator.Validate*"></a>
 
-  <h3 id="BOOSEAssignment_AppCommandFactory_GetInstance" data-uid="BOOSEAssignment.AppCommandFactory.GetInstance">
-  GetInstance()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppCommandFactory.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEAssignment_AppParameterValidator_Validate_System_String_BOOSEAssignment_AppStoredProgram_" data-uid="BOOSEAssignment.AppParameterValidator.Validate(System.String,BOOSEAssignment.AppStoredProgram)">
+  Validate(string, AppStoredProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppParameterValidator.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the instance for the singleton design pattern, ensures only 1 instance of the factory exists</p>
+  <div class="markdown level1 summary"><p>Function to validate parameters for int and real commands</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AppCommandFactory GetInstance()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSEAssignment.AppCommandFactory.html">AppCommandFactory</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSEAssignment_AppCommandFactory_MakeCommand_" data-uid="BOOSEAssignment.AppCommandFactory.MakeCommand*"></a>
-
-  <h3 id="BOOSEAssignment_AppCommandFactory_MakeCommand_System_String_" data-uid="BOOSEAssignment.AppCommandFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppCommandFactory.cs/#L75"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Overridden MakeCommand method to create new commands</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IAppCommand MakeCommand(string commandType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int[] Validate(string parameterList, AppStoredProgram program)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>String passed in to turn into a command object</p>
+    <dt><code>parameterList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Parameters</p>
+</dd>
+    <dt><code>program</code> <a class="xref" href="BOOSEAssignment.AppStoredProgram.html">AppStoredProgram</a></dt>
+    <dd><p>Stored program</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="BOOSEAssignment.IAppCommand.html">IAppCommand</a></dt>
-    <dd><p>A valid command object or a FactoryException if no valid command is passed</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>Returns validated parameters</p>
 </dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSEAssignment_AppCommandFactory_MakeCommandStrategy_" data-uid="BOOSEAssignment.AppCommandFactory.MakeCommandStrategy*"></a>
-
-  <h3 id="BOOSEAssignment_AppCommandFactory_MakeCommandStrategy_System_String_" data-uid="BOOSEAssignment.AppCommandFactory.MakeCommandStrategy(System.String)">
-  MakeCommandStrategy(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppCommandFactory.cs/#L27"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Strategy Design pattern implementation of MakeCommand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IAppCommand MakeCommandStrategy(string commandType)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSEAssignment.IAppCommand.html">IAppCommand</a></dt>
-    <dd></dd>
   </dl>
 
 
@@ -266,7 +194,7 @@ Class AppCommandFactory  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">FactoryException</span></dt>
+    <dt><span class="xref">CanvasException</span></dt>
     <dd></dd>
   </dl>
 
@@ -276,7 +204,7 @@ Class AppCommandFactory  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppCommandFactory.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppParameterValidator.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

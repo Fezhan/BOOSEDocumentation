@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppRect | docs </title>
+      <title>Class AppRect | BOOSEAssignment </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppRect | docs ">
+      <meta name="title" content="Class AppRect | BOOSEAssignment ">
       
-      <meta name="description" content="Replaced rect command">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="docs">
-            docs
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEAssignment">
+            BOOSEAssignment
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSEAssignment_AppRect" data-uid="BOOSEAssignment.AppRect" class="text-break">
-Class AppRect  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class AppRect  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>BOOSEAssignment.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Replaced rect command</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppRect : AppCommandTwoParameters, IAppCommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppRect : CommandTwoParameters, ICommand</code></pre>
   </div>
 
 
@@ -112,10 +111,10 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="BOOSEAssignment.AppCommand.html">AppCommand</a></div>
-      <div><a class="xref" href="BOOSEAssignment.AppCanvasCommand.html">AppCanvasCommand</a></div>
-      <div><a class="xref" href="BOOSEAssignment.AppCommandOneParameter.html">AppCommandOneParameter</a></div>
-      <div><a class="xref" href="BOOSEAssignment.AppCommandTwoParameters.html">AppCommandTwoParameters</a></div>
+      <div><span class="xref">Command</span></div>
+      <div><span class="xref">CanvasCommand</span></div>
+      <div><span class="xref">CommandOneParameter</span></div>
+      <div><span class="xref">CommandTwoParameters</span></div>
       <div><span class="xref">AppRect</span></div>
     </dd>
   </dl>
@@ -123,7 +122,7 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="BOOSEAssignment.IAppCommand.html">IAppCommand</a></div>
+      <div><span class="xref">ICommand</span></div>
     </dd>
   </dl>
 
@@ -132,61 +131,70 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_yPos">AppCanvasCommand.yPos</a>
+      <span class="xref">CommandTwoParameters.param2</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_xPos">AppCanvasCommand.xPos</a>
+      <span class="xref">CommandTwoParameters.param2unprocessed</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_canvas">AppCanvasCommand.canvas</a>
+      <span class="xref">CommandOneParameter.param1</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_Canvas">AppCanvasCommand.Canvas</a>
+      <span class="xref">CommandOneParameter.param1unprocessed</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_CheckParameters">AppCanvasCommand.CheckParameters()</a>
+      <span class="xref">CanvasCommand.yPos</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_IsDouble">AppCommand.IsDouble</a>
+      <span class="xref">CanvasCommand.xPos</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_program">AppCommand.program</a>
+      <span class="xref">CanvasCommand.canvas</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_parameterList">AppCommand.parameterList</a>
+      <span class="xref">CanvasCommand.Canvas</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_parameters">AppCommand.parameters</a>
+      <span class="xref">Command.IsDouble</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_paramsint">AppCommand.paramsint</a>
+      <span class="xref">Command.program</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Program">AppCommand.Program</a>
+      <span class="xref">Command.parameterList</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Name">AppCommand.Name</a>
+      <span class="xref">Command.parameters</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ParameterList">AppCommand.ParameterList</a>
+      <span class="xref">Command.paramsint</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Parameters">AppCommand.Parameters</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Paramsint">AppCommand.Paramsint</a>
+      <span class="xref">Command.Compile()</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Compile">AppCommand.Compile()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ProcessParameters_System_String_">AppCommand.ProcessParameters(string)</a>
+      <span class="xref">Command.ToString()</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Set_BOOSEAssignment_AppStoredProgram_System_String_">AppCommand.Set(AppStoredProgram, string)</a>
+      <span class="xref">Command.Program</span>
     </div>
     <div>
-      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ToString">AppCommand.ToString()</a>
+      <span class="xref">Command.Name</span>
+    </div>
+    <div>
+      <span class="xref">Command.ParameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.Parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.Paramsint</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -221,11 +229,10 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSEAssignment_AppRect__ctor" data-uid="BOOSEAssignment.AppRect.#ctor">
   AppRect()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Blank constructor</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -248,11 +255,10 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSEAssignment_AppRect__ctor_BOOSE_Canvas_System_Int32_System_Int32_" data-uid="BOOSEAssignment.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)">
   AppRect(Canvas, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Constructor with parameters</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -288,11 +294,10 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSEAssignment_AppRect_CheckParameters_System_String___" data-uid="BOOSEAssignment.AppRect.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Overridden method to check parameters</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -313,11 +318,6 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CommandException</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -325,11 +325,10 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSEAssignment_AppRect_Execute" data-uid="BOOSEAssignment.AppRect.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Overridden execute method to draw rectangle</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -345,11 +344,6 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CanvasException</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -357,7 +351,7 @@ Class AppRect  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppRect.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppRect.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

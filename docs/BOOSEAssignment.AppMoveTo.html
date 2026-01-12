@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppMoveTo | BOOSEAssignment </title>
+      <title>Class AppMoveTo | docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppMoveTo | BOOSEAssignment ">
+      <meta name="title" content="Class AppMoveTo | docs ">
       
       <meta name="description" content="Implements the &#39;moveto&#39; command to move the drawing cursor to specified coordinates on the canvas.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:navrel" content="">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="BOOSEAssignment">
-            BOOSEAssignment
+            <img id="logo" class="svg" src="../logo.svg" alt="docs">
+            docs
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSEAssignment_AppMoveTo" data-uid="BOOSEAssignment.AppMoveTo" class="text-break">
-Class AppMoveTo  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class AppMoveTo  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppMoveTo : CommandTwoParameters, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppMoveTo : AppCommandTwoParameters, IAppCommand</code></pre>
   </div>
 
 
@@ -112,10 +112,10 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">CommandOneParameter</span></div>
-      <div><span class="xref">CommandTwoParameters</span></div>
+      <div><a class="xref" href="BOOSEAssignment.AppCommand.html">AppCommand</a></div>
+      <div><a class="xref" href="BOOSEAssignment.AppCanvasCommand.html">AppCanvasCommand</a></div>
+      <div><a class="xref" href="BOOSEAssignment.AppCommandOneParameter.html">AppCommandOneParameter</a></div>
+      <div><a class="xref" href="BOOSEAssignment.AppCommandTwoParameters.html">AppCommandTwoParameters</a></div>
       <div><span class="xref">AppMoveTo</span></div>
     </dd>
   </dl>
@@ -123,7 +123,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ICommand</span></div>
+      <div><a class="xref" href="BOOSEAssignment.IAppCommand.html">IAppCommand</a></div>
     </dd>
   </dl>
 
@@ -132,70 +132,61 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">CommandTwoParameters.param2</span>
+      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_yPos">AppCanvasCommand.yPos</a>
     </div>
     <div>
-      <span class="xref">CommandTwoParameters.param2unprocessed</span>
+      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_xPos">AppCanvasCommand.xPos</a>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1</span>
+      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_canvas">AppCanvasCommand.canvas</a>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1unprocessed</span>
+      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_Canvas">AppCanvasCommand.Canvas</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="BOOSEAssignment.AppCanvasCommand.html#BOOSEAssignment_AppCanvasCommand_CheckParameters">AppCanvasCommand.CheckParameters()</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_IsDouble">AppCommand.IsDouble</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_program">AppCommand.program</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_parameterList">AppCommand.parameterList</a>
     </div>
     <div>
-      <span class="xref">Command.IsDouble</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_parameters">AppCommand.parameters</a>
     </div>
     <div>
-      <span class="xref">Command.program</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_paramsint">AppCommand.paramsint</a>
     </div>
     <div>
-      <span class="xref">Command.parameterList</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Program">AppCommand.Program</a>
     </div>
     <div>
-      <span class="xref">Command.parameters</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Name">AppCommand.Name</a>
     </div>
     <div>
-      <span class="xref">Command.paramsint</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ParameterList">AppCommand.ParameterList</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Parameters">AppCommand.Parameters</a>
     </div>
     <div>
-      <span class="xref">Command.Compile()</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Paramsint">AppCommand.Paramsint</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Compile">AppCommand.Compile()</a>
     </div>
     <div>
-      <span class="xref">Command.ToString()</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ProcessParameters_System_String_">AppCommand.ProcessParameters(string)</a>
     </div>
     <div>
-      <span class="xref">Command.Program</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_Set_BOOSEAssignment_AppStoredProgram_System_String_">AppCommand.Set(AppStoredProgram, string)</a>
     </div>
     <div>
-      <span class="xref">Command.Name</span>
-    </div>
-    <div>
-      <span class="xref">Command.ParameterList</span>
-    </div>
-    <div>
-      <span class="xref">Command.Parameters</span>
-    </div>
-    <div>
-      <span class="xref">Command.Paramsint</span>
+      <a class="xref" href="BOOSEAssignment.AppCommand.html#BOOSEAssignment_AppCommand_ToString">AppCommand.ToString()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -230,7 +221,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="BOOSEAssignment_AppMoveTo__ctor" data-uid="BOOSEAssignment.AppMoveTo.#ctor">
   AppMoveTo()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the AppMoveTo class.</p>
@@ -257,7 +248,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="BOOSEAssignment_AppMoveTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_" data-uid="BOOSEAssignment.AppMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)">
   AppMoveTo(Canvas, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the AppMoveTo class with specified canvas and coordinates.</p>
@@ -300,7 +291,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="BOOSEAssignment_AppMoveTo_CheckParameters_System_String___" data-uid="BOOSEAssignment.AppMoveTo.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Overrides the CheckParameters method to ensure exactly two parameters are provided.</p>
@@ -339,7 +330,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="BOOSEAssignment_AppMoveTo_Execute" data-uid="BOOSEAssignment.AppMoveTo.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Executes the moveto command to move the cursor to specified coordinates.</p>
@@ -372,7 +363,7 @@ Class AppMoveTo  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEexamplePrograms/6addYourProgramsHere/BOOSEAssignment/AppMoveTo.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Fezhan/blob/main/BOOSEAssignment/AppMoveTo.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 
